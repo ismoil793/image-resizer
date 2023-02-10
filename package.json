@@ -1,0 +1,21 @@
+{
+  "name": "electron-image-resizer",
+  "productName": "Image Resizer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dev": "nodemon --watch . --exec \"electron . --inspect\" -e js,json,html,css"
+  },
+  "author": "Ismoil",
+  "license": "MIT",
+  "dependencies": {
+    "electron": "^23.0.0",
+    "resize-img": "^2.0.0",
+    "toastify-js": "^1.12.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
